@@ -1,0 +1,17 @@
+git init -> Sirve para inicializar el repositorio
+rm -rf .git -> Es para borrar la inicializacion de git
+git branch -M main -> Es para cambiar a la rapa principal main
+git status -> Permite visualizar el estado de los archivos
+git config -l -> Permite mirar la configuracion, ver que usuario y nombre se colocaron, parecido a un historial.
+git log - -oneline -> Muestra un resumen de los commits realizados (id del commit y mensaje).
+git log -> Comando para mirar los commits que se han realizado, muestra el id del commit, el autor, la fecha y el mensaje del commit
+git add -> Es para agregar archivos a ser versionados o commiteados.
+git commit -m "mensaje commit" -> permite subir los cambios a la rama principal
+git clone ssh://usuario@domain.com/repo.git -> Es para clonar repositorio
+git remote add origin https//github.com/user/nombreRepositorio.git -> para vincularme con un repositorio remoto que cree por primera vez
+git remote -v -> permite visualizar si estoy vinculado a un repositorio de github
+git push origin main ssh://usuario@domain.com/repo.git -> Para subir los commits a un repositorio remoto
+git push origin nombreRama -> para subir los cambios a una rama especifica
+git pull  -> Descargar los cambios de un repositorio remoto
+git branch nombreRama-> Permite crear una rama
+git checkout nombreRama -> Permite moverse de rama
