@@ -1,0 +1,3 @@
+IP Privada de mi VM
+inet:10.0.2.15
+
