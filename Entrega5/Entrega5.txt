@@ -1,0 +1,13 @@
+Para subir la actividad 5 los pasos que se siguieron fueron los siguientes:
+
+1. Cambiar la configuracion de la VM por adaptador puente y se selecciono la placa de red utilizada para la conexion red, en mi caso era la Intel(R) wireless-AC 9560
+2. Ingresé con usuario y contraseña ubuntu
+3. Verifique la configuracion  de la VM con el comando ifconfig
+4. Cambie por el usuario rooy con el comando sudo -i y cambie su contraseña
+5. Ejecute el comando apt-get install telnetd
+6. Verifique el status del servicio con el comando systemctl status inetd
+7. Coloque el comando ifconfig para ver la direccion ip privada de la VM
+8. Configure mi computador la opcion para activar el cliente telnet en windows
+9. En la consola CMD de mi computador coloque el comando telnet y la ip que aparece en la VM
+10. Accedi con el usuario ubuntu y empece a visualizar que estaba conectada a la VM desde mi computador, y que todos los cambios que hacia desde la consola CMD aparecian en la VM, y visceversa.
+11. Desde la consola CMD clone la Mochila, y cree una rama Entrega5, luego cree un archivo txt y lo edité con estos pasos.
